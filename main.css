@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/* LIGNES CODE HERO DEGRADE */
+/* background: linear-gradient(94.01deg, rgba(68, 221, 138, 0.8) 3.11%, rgba(21, 183, 226, 0.8) 98.45%);
+ */
+nav{
+    width: 1680px;
+    height: 80px;
+    background-color: #152237;
+}
+
+.logo, .formation, .connexion, .inscription, input{
+    position: relative;
+}
+
+.logo{
+    top: 25px;
+    left: 98px;
+}
+
+.formation{
+    top: 31px;
+    left: 350px;
+}
+
+.connexion{
+    top: 20px;
+    left: 1300px;
+    width: 130;
+    height: 40px;
+}
+
+.inscription{
+    top: 20px;
+    left: 1449px;
+    width: 130;
+    height: 40px;
+}
+
+input{
+    width: 477px;
+    height: 40px;
+    top: 20px;
+    left: 603px;
+}

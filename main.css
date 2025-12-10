@@ -56,10 +56,17 @@ a {
   justify-content: space-around;
 }
 
+.text_populaire {
+  position: relative;
+  top: 30px;
+  left: 97px;
+}
+
 .row {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-top: 136px;
 }
 
 .cards {
@@ -82,6 +89,13 @@ a {
 
 /* FORMATIONS RECENTES */
 
+.text_recents {
+  color: white;
+  position: relative;
+  top: 30px;
+  left: 97px;
+}
+
 .recents {
   display: flex;
   flex-direction: column;
@@ -92,6 +106,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-top: 136px;
 }
 
 .test {
@@ -105,6 +120,27 @@ a {
   justify-content: center;
 }
 
+.bouton,
+.btn {
+  margin-bottom: 50px;
+}
+
+.avis {
+  text-align: center;
+}
+
+.juliette {
+  width: 689px;
+  height: 306px;
+}
+
+.camille {
+  width: 689px;
+  height: 306px;
+}
+i {
+  display: block;
+}
 /* .logo,
 .formation,
 .connexion,

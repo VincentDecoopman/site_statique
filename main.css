@@ -14,6 +14,28 @@ body {
   letter-spacing: -1.5%;
 }
 
+h2{
+  width: 100vw;
+  font-family: Montserrat;
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 36px;
+  line-height: 72px;
+  letter-spacing: -1.5%;
+}
+
+
+
+h6{
+  width: 100vw;
+  font-family: Montserrat;
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 36px;
+  line-height: 72px;
+  letter-spacing: -1.5%;
+}
+
 /* NAV */
 
 nav {
@@ -21,6 +43,9 @@ nav {
   width: 100vw;
   height: 80px;
   background-color: #152237;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 a {
@@ -41,11 +66,17 @@ a {
   background-size: cover;
   position: relative;
   min-height: 80vh;
+  
 }
 
 .hero-text {
-  justify-items: center;
-  align-content: center;
+  text-align: center;
+}
+
+.hero_btn{
+  width: 130px;
+  height: 40px;
+  border-radius: 6px;
 }
 
 /* Cartes */
@@ -85,6 +116,20 @@ a {
   background-color: #152237;
   color: white;
   border-radius: 6px;
+}
+
+.opaque{
+  opacity: 30%;
+}
+
+.prix{
+  width: 120;
+  height: 31.583885192871094;
+  opacity: 1;
+  top: 326px;
+  left: 274px;
+  border-radius: 93px;
+
 }
 
 /* FORMATIONS RECENTES */
@@ -129,18 +174,20 @@ a {
   text-align: center;
 }
 
+.clts{
+  max-width: 100%;
+}
+
 .juliette {
-  width: 689px;
+  width: 300px;
   height: 306px;
 }
 
 .camille {
-  width: 689px;
+  width: 300px;
   height: 306px;
 }
-i {
-  display: block;
-}
+
 /* .logo,
 .formation,
 .connexion,
@@ -179,3 +226,11 @@ input {
   top: 20px;
   left: 603px;
 } */
+
+p{
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0%;
+}

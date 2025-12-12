@@ -113,7 +113,9 @@ a {
   background-size: cover;
   position: relative;
   min-height: 80vh;
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hero-text {

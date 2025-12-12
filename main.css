@@ -5,7 +5,7 @@
 }
 
 body {
-  width: 100vw;
+  max-width: 100%;
   font-family: Montserrat;
   font-weight: 800;
   font-style: ExtraBold;
@@ -24,8 +24,6 @@ h2{
   letter-spacing: -1.5%;
 }
 
-
-
 h6{
   width: 100vw;
   font-family: Montserrat;
@@ -34,6 +32,16 @@ h6{
   font-size: 36px;
   line-height: 72px;
   letter-spacing: -1.5%;
+}
+
+a{
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: -1.5%;
+  text-align: center;
+  vertical-align: middle;
 }
 
 /* NAV */
@@ -45,12 +53,51 @@ nav {
   background-color: #152237;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10pw;
+}
+
+.logo{
+  margin-left: 100px;
 }
 
 a {
   text-decoration: none;
   color: white;
+}
+
+.search_nav{
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 6px;
+}
+
+.connexion, .inscription{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  padding: 20px;
+  border: 2px solid black; 
+  border-radius: 6px;
+  height: 18px;
+}
+
+.connexion{
+  background-color: white;
+  color: black;
+  margin-right: 40px;
+}
+
+.inscription{
+  background: linear-gradient(95.98deg, #44DD8A 8.7%, #15B7E2 100%);
+}
+
+.boutons{
+  display: flex;
+  flex-direction: row;
+  padding-right: 100px;
 }
 
 /* HERO */

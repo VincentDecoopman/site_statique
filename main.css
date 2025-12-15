@@ -137,6 +137,71 @@ a {
   justify-content: space-around;
 }
 
+.prix {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  top: -35px;
+  left: 215px;
+  background-color: #152237;
+  box-shadow: 5px 4px 13.2px -1px #00000040;
+  width: 80px;
+}
+
+.prix_normal {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: -1.5%;
+  color: white;
+}
+
+.prix_barre {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 10px;
+  line-height: 7px;
+  letter-spacing: -1.5%;
+  text-decoration: line-through;
+  color: white;
+}
+
+.prix_recent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  top: -35px;
+  left: 215px;
+  background-color: white;
+  box-shadow: 5px 4px 13.2px -1px #00000040;
+  width: 80px;
+  border-radius: 96px;
+}
+
+.prix_normal_recent {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: -1.5%;
+  color: #152237;
+}
+
+.prix_barre_recent {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 10px;
+  line-height: 7px;
+  letter-spacing: -1.5%;
+  text-decoration: line-through;
+  color: #152237;
+}
+
 .text_populaire {
   position: relative;
   top: 30px;
@@ -177,8 +242,6 @@ a {
   width: 120;
   height: 31.583885192871094;
   opacity: 1;
-  top: 326px;
-  left: 274px;
   border-radius: 93px;
 }
 
@@ -345,6 +408,7 @@ form {
 
 input {
   background-color: #152237;
+  color: white;
 }
 
 #envoi {

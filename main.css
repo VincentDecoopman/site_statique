@@ -47,15 +47,14 @@ a {
 /* NAV */
 
 nav {
-  /* width: 1680px;  */
-  width: 1905px;
+  /* width: 1680px; */
+  width: 100%;
   height: 80px;
   background-color: #152237;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  /* padding: 10pw; */
 }
 
 .logo {
@@ -348,7 +347,23 @@ a {
 /* Création */
 
 .creation {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
   background-color: #44dd8a;
+  height: 641px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.texte {
+  width: 616px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.5%;
 }
 
 /* A propos */
@@ -359,7 +374,6 @@ a {
   height: 740px;
   justify-content: space-around;
   align-items: center;
-  width: 1905px;
 }
 
 .partie_1 {
@@ -623,3 +637,12 @@ p {
   letter-spacing: -1.5%;
   text-transform: uppercase;
 }
+
+/* 360px ou 576px responsive */
+
+/* @media screen and (width < 576px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+} */

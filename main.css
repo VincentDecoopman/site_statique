@@ -210,12 +210,6 @@ a {
   color: #152237;
 }
 
-.text_populaire {
-  position: relative;
-  top: 30px;
-  left: 97px;
-}
-
 .row {
   display: flex;
   flex-direction: row;
@@ -719,6 +713,7 @@ p {
   }
 
   /* Populaire */
+
   .text_populaire {
     font-family: Montserrat;
     font-weight: 800;
@@ -726,6 +721,66 @@ p {
     font-size: 30px;
     line-height: 40px;
     letter-spacing: -1.5%;
+    width: 100%;
     text-align: center;
+  }
+
+  /* Cards */
+
+  .cartes-colonnes {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cards {
+    /* width: 100%; */
+    margin-bottom: 150px;
+  }
+
+  /* Recents */
+
+  .englobe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Clients */
+
+  .clts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+    height: 598px;
+  }
+
+  .avis {
+    margin-bottom: 50px;
+  }
+
+  .juliette {
+    margin-bottom: 70px;
+  }
+
+  .avis-colonnes {
+    padding-bottom: 50px;
+  }
+
+  /* Avantages */
+
+  .avantages {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contenu {
   }
 }

@@ -356,8 +356,7 @@ a {
 .echanges {
   display: flex;
   flex-direction: row;
-  margin: 2CRÉEZ VOS FORMATIONS AVEC KLIVIO Comission unique,
-    au pourcentage sur les ventes5px;
+  margin: 25px;
 }
 
 /* Création */
@@ -674,6 +673,14 @@ p {
   line-height: 36px;
   letter-spacing: -1.5%;
   text-transform: uppercase;
+}
+
+/* Icones */
+
+.avantages .contenu i,
+.creation .texte i {
+  margin-top: 7px;
+  margin-right: 10px;
 }
 
 /* 360px ou 576px responsive */

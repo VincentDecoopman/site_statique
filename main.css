@@ -362,6 +362,10 @@ a {
 
 /* Création */
 
+.text_creation_responsive {
+  display: none;
+}
+
 .creation {
   width: 100%;
   display: flex;
@@ -781,6 +785,35 @@ p {
     align-items: center;
   }
 
-  .contenu {
+  .image_avantage {
+    width: 327px;
+    height: 244px;
+  }
+
+  /* Creation */
+
+  .creation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image_creation {
+    width: 324px;
+    height: 243px;
+  }
+
+  .text_creation {
+    display: none;
+  }
+
+  .text_creation_responsive {
+    display: block;
+    width: 100%;
+  }
+
+  .texte {
+    display: flex;
+    flex-direction: column;
   }
 }

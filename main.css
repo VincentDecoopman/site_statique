@@ -218,6 +218,7 @@ a {
 .cards {
   width: 307px;
   height: 362px;
+  margin-bottom: 25px;
 }
 
 .bouton {
@@ -344,6 +345,17 @@ a {
   padding-bottom: 50px;
 }
 
+.suivi,
+.exercices,
+.possibilite,
+.qualite,
+.auto,
+.echanges {
+  display: flex;
+  flex-direction: row;
+  margin: 25px;
+}
+
 /* Création */
 
 .creation {
@@ -353,7 +365,7 @@ a {
   background-color: #44dd8a;
   height: 641px;
   padding: 20px;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -366,18 +378,34 @@ a {
   letter-spacing: -1.5%;
 }
 
+.text_creation {
+  width: auto;
+}
+
+.argent,
+.avant,
+.controle,
+.fonction,
+.prof {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+}
+
 /* A propos */
 
 .propos {
   display: flex;
   flex-direction: row;
   height: 740px;
-  justify-content: space-around;
+  width: 100%;
+  justify-content: space-between;
   align-items: center;
 }
 
 .partie_1 {
-  width: 500px;
+  width: 686px;
+  margin-left: 100px;
 }
 
 .partie_2 {
@@ -445,6 +473,7 @@ input {
   height: 45px;
   border-radius: 6px;
   border: 1px solid #44dd8a;
+  margin-bottom: 50px;
 }
 
 form {

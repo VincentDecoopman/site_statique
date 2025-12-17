@@ -314,6 +314,12 @@ a {
   align-content: center;
 }
 
+.img_juliette,
+.img_camille {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
 .juliette {
   width: 300px;
   height: 306px;
@@ -329,6 +335,7 @@ a {
 .avantages {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   align-items: center;
   max-width: 100vw;
   height: 641px;
@@ -453,6 +460,10 @@ form {
 .form_row {
   display: flex;
   flex-direction: row;
+}
+
+.nom {
+  margin-right: 135px;
 }
 
 input {
@@ -743,11 +754,13 @@ p {
     flex-direction: column;
     align-content: space-around;
   }
+
   .row {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .cards {
     /* width: 100%; */
     margin-bottom: 150px;
@@ -788,13 +801,20 @@ p {
   .avantages {
     margin-top: 100px;
     display: flex;
+    height: auto;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+  }
+
+  .contenu {
+    margin: 0;
   }
 
   .image_avantage {
     width: 327px;
     height: 244px;
+    padding-bottom: 50px;
   }
 
   /* Creation */
@@ -803,6 +823,8 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: auto;
+    order: -1;
   }
 
   .image_creation {
@@ -822,5 +844,81 @@ p {
   .texte {
     display: flex;
     flex-direction: column;
+    justify-items: center;
+    width: 90%;
+  }
+
+  /* A propos */
+
+  .propos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 100%;
+  }
+
+  .partie_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0;
+  }
+
+  .partie_2 {
+    width: 100%;
+  }
+
+  .logo_propos {
+    width: 214px;
+    height: 77px;
+  }
+
+  /* Formulaire */
+
+  .formulaire {
+    display: flex;
+    flex-direction: column;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form_row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form_row,
+  .input_message,
+  .input_nom,
+  .input_email {
+    width: 356px;
+  }
+
+  /* Footer */
+
+  .footer_1,
+  .footer_2,
+  .coordonnes,
+  .boutons_footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .p1,
+  .p2,
+  .barre,
+  .boutons_footer {
+    display: none;
+  }
+
+  .titre_legal,
+  .titre_coordonnees {
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 }

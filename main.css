@@ -24,6 +24,14 @@ h2 {
   letter-spacing: -1.5%;
 }
 
+h4 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -1.5%;
+}
+
 h6 {
   width: 100vw;
   font-family: Montserrat;
@@ -58,6 +66,8 @@ nav {
 }
 
 .logo {
+  width: 84px;
+  height: 31px;
   margin-left: 100px;
 }
 
@@ -135,6 +145,13 @@ a {
   width: 130px;
   height: 40px;
   border-radius: 6px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: -1.5%;
+  text-align: center;
+  vertical-align: middle;
 }
 
 /* Cartes */
@@ -279,6 +296,13 @@ a {
   width: 225px;
   height: 40px;
   border-radius: 6px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: -1.5%;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .btn {
@@ -323,11 +347,28 @@ a {
 .juliette {
   width: 300px;
   height: 306px;
+  margin: 0px;
+}
+
+.text_juliette {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: -1.5%;
 }
 
 .camille {
   width: 300px;
   height: 306px;
+}
+
+.text_camille {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: -1.5%;
 }
 
 /* Avantages */
@@ -435,6 +476,9 @@ a {
 /* formulaire */
 
 .contact {
+  position: relative;
+  top: 50px;
+  padding-bottom: 35px;
   width: 100%;
   text-align: center;
   font-family: Montserrat;
@@ -447,7 +491,7 @@ a {
 }
 
 .formulaire {
-  height: 585px;
+  height: auto;
 }
 
 form {
@@ -496,6 +540,16 @@ input {
 
 form {
   height: 585px;
+}
+
+.barre_contact {
+  position: relative;
+  top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #44dd8a;
+  width: 350px;
+  height: 2px;
 }
 
 /* Footer */
@@ -558,11 +612,6 @@ footer {
   flex-direction: row;
   color: white;
 }
-
-/* .image_footer {
-  width: 24px;
-  height: 24px;
-} */
 
 .boutons_footer {
   display: flex;
@@ -653,6 +702,18 @@ input {
 
 /* typo différents textes */
 
+h1 {
+  font-family: Montserrat;
+  font-weight: 800;
+  font-style: ExtraBold;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: -1.5%;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
 p {
   font-family: Montserrat;
   font-weight: 400;
@@ -661,8 +722,28 @@ p {
   letter-spacing: 0%;
 }
 
+.phero {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -1.5%;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.avis {
+  position: relative;
+  top: 75px;
+}
+
 .text_populaire,
 .text_recents {
+  position: relative;
+  top: 60px;
+  left: 100px;
   font-family: Montserrat;
   font-weight: 800;
   font-style: ExtraBold;
@@ -670,6 +751,8 @@ p {
   line-height: 72px;
   letter-spacing: -1.5%;
 }
+
+.hero_btn
 
 /* Majuscules */
 
@@ -774,6 +857,10 @@ p {
     align-items: center;
   }
 
+  .text_recents {
+    top: 0;
+    left: 0;
+  }
   /* Clients */
 
   .clts {
@@ -805,6 +892,11 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .text_avantages {
+    margin: 0px;
+    width: 200px;
   }
 
   .contenu {

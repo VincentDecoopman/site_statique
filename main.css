@@ -282,14 +282,16 @@ a {
   display: flex;
   flex-direction: column;
   background-color: #152237;
+  justify-content: space-around;
+  height: 800px;
 }
 
 .englobe {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 136px;
-  padding-bottom: 80px;
+  /* margin-top: 136px;
+  padding-bottom: 80px; */
 }
 
 .test {
@@ -345,7 +347,7 @@ a {
 }
 
 .juliette {
-  width: 300px;
+  width: 700px;
   height: 306px;
   margin: 0px;
 }
@@ -359,7 +361,7 @@ a {
 }
 
 .camille {
-  width: 300px;
+  width: 700px;
   height: 306px;
 }
 
@@ -820,6 +822,7 @@ p {
   /* Populaire */
 
   .text_populaire {
+    left: 0px;
     font-family: Montserrat;
     font-weight: 800;
     font-style: ExtraBold;
@@ -828,6 +831,11 @@ p {
     letter-spacing: -1.5%;
     width: 100%;
     text-align: center;
+  }
+
+  .row {
+    margin: 0px;
+    padding: 0px;
   }
 
   /* Cards */
@@ -855,6 +863,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0px;
   }
 
   .text_recents {
@@ -868,21 +877,31 @@ p {
     flex-direction: column;
     align-items: center;
     margin-bottom: 25px;
-    height: 598px;
+    height: auto;
   }
 
   .avis {
     margin-bottom: 50px;
+    top: 0px;
   }
 
   .juliette {
+    width: 250px;
     margin-bottom: 70px;
   }
 
   .avis-colonnes {
-    padding-bottom: 50px;
+    height: auto;
   }
 
+  .camille {
+    width: 250px;
+  }
+  .juliette,
+  .camille {
+    height: auto;
+    width: 90%;
+  }
   /* Avantages */
 
   .avantages {
@@ -990,6 +1009,13 @@ p {
   .input_nom,
   .input_email {
     width: 356px;
+  }
+
+  #pin,
+  #telephone,
+  #lettre,
+  .barre_contact {
+    display: none;
   }
 
   /* Footer */
